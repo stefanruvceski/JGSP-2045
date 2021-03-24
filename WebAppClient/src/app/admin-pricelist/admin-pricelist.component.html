@@ -1,0 +1,176 @@
+<ng-template #content2 let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: white;">
+      <h4 class="modal-title">Confirm ticket</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: white;">
+      <h2>{{feedback}}</h2>
+
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+        <button type="button" class="btn btn-info" (click)="ok()">Ok</button>
+    </div>
+  </ng-template>
+
+<ng-template #content let-modal>
+    <div class="modal-header " style="background-color: #292b2c;color: white; ">
+      <h4 class="modal-title">Add Pricelist</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body " style="background-color: #292b2c;color: white;">
+
+      <div class="row">
+        <div class="col-lg-12  ">
+        <div class="form-label-group ">
+            <input type="number"  id="inputTimeTicket" (keyup)="onKeyTime($event)" class="form-control" placeholder="TimeTicket" required autofocus>
+            <label for="inputTimeTicket">*Time ticket price</label>
+          </div>
+
+          <div class="form-label-group ">
+              <input type="number"  id="inputTimeTicket" class="form-control"(keyup)="onKeyDay($event)" placeholder="TimeTicket" required >
+              <label for="inputTimeTicket">*Daily ticket price</label>
+            </div>
+
+            <div class="form-label-group ">
+                <input type="number"  id="inputDayTicket" (keyup)="onKeyMonth($event)" class="form-control" placeholder="DayTicket" required >
+                <label for="inputDayTicket">*Monthly ticket price</label>
+              </div>
+
+              <div class="form-label-group ">
+                  <input type="number"  id="inputTimeTicket" (keyup)="onKeyAnnual($event)" class="form-control" placeholder="TimeTicket" required >
+                  <label for="inputTimeTicket">*Annual ticket price</label>
+                </div>
+                <hr style="background-color: white;">
+        <div class="myContainer container " style="display: inline-block;" >
+            <div class="columns is-multiline">
+              <div class="column is-6 is-offset-3">
+
+              </div>
+              <div class="column is-6 is-offset-3">
+                <div class="datepicker-container" (click)="onchangeIssue()">
+                     <ng-datepicker position='top-left'  [(ngModel)]="pricelist.IssueDate" [options]="issueOptions"></ng-datepicker>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="myContainer container " style="display: inline-block" >
+              <div class="columns is-multiline">
+                <div class="column is-6 is-offset-3">
+
+                </div>
+                <div class="column is-6 is-offset-3">
+                  <div class="datepicker-container" (click)="onchangeExpire()">
+                       <ng-datepicker position='top-right'   [(ngModel)]="pricelist.ExpireDate" [options]="expireOptions"></ng-datepicker>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <br><br>
+          <div class="row">
+              <button class="btn  btn-info btn-block  btn-login text-uppercase font-weight-bold"  style="border-radius: 30px; height: 50px;"  (click)="addnewpricelist(content2)">Add Pricelist</button>
+          </div>
+    </div>
+
+  </ng-template>
+
+<br/><br><br>
+<div class="container">
+  <div class="row">
+      <button class="btn btn-lg btn-info btn-block btn-login text-uppercase font-weight-bold mb-2"  style="border-radius: 30px; height: 50px;"  (click)="addpricelist(content)">Add Pricelist</button>
+  </div>
+  <div class="row">
+    <div class="col-lg-4  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center mb-4">Regular</h5>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>#</th>
+            <th scope="col">Ticket type</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pricelist of pricelistRegular;let i = index" [attr.data-index]="i">
+            <td>{{i+1}}</td>
+            <td>{{pricelist.TicketName}}</td>
+            <td>{{pricelist.Price}} rsd</td>
+          </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+<div class="col-lg-4  mx-auto">
+    <div class="card card-signin flex-row my-5">
+      <div class=" d-none d-md-flex">
+         <!-- Background image for card set in CSS! -->
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">Students</h5>
+<table class="table">
+  <thead class="thead-dark">
+      <tr>
+          <th>#</th>
+          <th scope="col">Ticket type</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pricelist of pricelistStudent;let i = index" [attr.data-index]="i">
+          <td>{{i+1}}</td>
+          <td>{{pricelist.TicketName}}</td>
+          <td>{{pricelist.Price}} rsd</td>
+        </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-lg-4  mx-auto">
+    <div class="card card-signin flex-row my-5">
+      <div class=" d-none d-md-flex">
+         <!-- Background image for card set in CSS! -->
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">Pensioners</h5>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>#</th>
+      <th scope="col">Ticket type</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pricelist of pricelistPensioner;let i = index" [attr.data-index]="i">
+      <td>{{i+1}}</td>
+      <td>{{pricelist.TicketName}}</td>
+      <td>{{pricelist.Price}} rsd</td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+</div>

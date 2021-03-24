@@ -1,0 +1,83 @@
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center mb-4">Timetable</h5>
+
+          <link href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" rel="stylesheet" />
+  <div style="display: inline-block" class=" my-switch1  switch-toggle switch-3 switch-candy">
+    <input id="Urban" name="state-dd" value="Urban" type="radio" checked="" (change)="getLines('Urban')"/>
+    <label for="Urban" onclick="">Urban</label>
+
+    <input id="Suburban"  name="state-dd" value="Suburban" type="radio" (change)="getLines('Suburban')"/>
+    <label for="Suburban" onclick="">Suburban</label>
+
+
+
+    <a class="active-switch"></a>
+  </div>
+
+
+
+  <div class=" my-switch2 switch-toggle switch-3 switch-candy">
+    <input id="Weekday" name="state-d" value="Weekday" type="radio" checked="" (change)="onSelectionChange('Weekday')"/>
+    <label for="Weekday" onclick="">Weekday</label>
+
+    <input id="Saturday"  name="state-d" value="Saturday" type="radio" (change)="onSelectionChange('Saturday')"/>
+    <label for="Saturday" onclick="">Saturday</label>
+
+    <input id="Sunday" name="state-d" value="Sunday" type="radio" (change)="onSelectionChange('Sunday')"/>
+    <label for="Sunday" onclick="">Sunday</label>
+
+    <a class="active-switch"></a>
+  </div>
+
+  <ul>
+    <li *ngFor="let line of lines">
+      <button type="button" style=  "width:100%" class="btn btn-info" (click)="showLineDetails(line.Lineid)">
+          {{line.Lineid}}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{line.Description}}
+        </button>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div *ngIf="hid"class="col-lg-5  mx-auto">
+    <div class="card card-signin flex-row my-5">
+      <div class=" d-none d-md-flex">
+         <!-- Background image for card set in CSS! -->
+      </div>
+
+      
+      <div class="card-body">
+        <div *ngIf="timetable">
+        <h5 class="card-title text-center mb-4">Timetable</h5>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th class="text-center" ><p>Departure time</p>
+                  <p>{{lineId}}&nbsp; {{lineDesc}}</p>
+                  <p></p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of timetable;let i = index" [attr.data-index]="i">
+                <td >{{item}}</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div *ngIf="!timetable">
+              <h5 class="card-title text-center mb-4">Timetable for this line is still undefined...</h5>
+              <img style="width: 100%" src="http://images.gmanews.tv/webpics/2016/11/BusAccident_2016_11_02_19_23_30.jpg">
+          </div>
+      </div>
+</div>
+</div>
+</div>

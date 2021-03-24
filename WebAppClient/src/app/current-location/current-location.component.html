@@ -1,0 +1,42 @@
+
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-xl-12  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+            <div class="funkyradio">
+                <div *ngFor="let id of linesId" style="display: inline-block">
+                  <div class="funkyradio-primary" style="margin-right:10px;">
+                    <input ng-model="myCheckbox"  value="RAdi" id={{id}}  type="checkbox" name="radio"  ng-model="check" (click)="someFunction(id,$event)" ng-true-value="YES" ng-false-value="NO">
+                    <label for="{{id}}">{{id}}&nbsp;&nbsp;</label>
+                </div>
+                  </div>
+              </div>
+         <!--Google map-->
+         <agm-map  [latitude]="45.25167" [longitude]="19.83694" [zoom]="14" >
+
+                  <agm-marker  style="width: 1px;height:1px;" *ngFor="let location of getCurrentLocation()"  [latitude]="location.lan" [longitude]="location.lng" [iconUrl]="lineIcons.get(location.lineId)" >
+
+                  </agm-marker>
+
+
+
+
+                </agm-map>
+
+        </div>
+      </div>
+      </div>
+
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+

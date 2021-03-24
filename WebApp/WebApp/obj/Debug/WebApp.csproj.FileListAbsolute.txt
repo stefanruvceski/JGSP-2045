@@ -1,0 +1,419 @@
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\WebApp.dll.config
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\WebApp.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\WebApp.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\EntityFramework.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Cors.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Owin.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Cors.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.Cors.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.Owin.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Optimization.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Razor.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.WebPages.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Thinktecture.IdentityModel.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Unity.Abstractions.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Unity.Container.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\WebActivatorEx.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\WebGrease.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Cors.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.Cors.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Razor.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.WebPages.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Optimization.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Thinktecture.IdentityModel.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Thinktecture.IdentityModel.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Unity.Abstractions.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Unity.Container.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\EntityFramework.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\System.Web.Http.Owin.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Stefan\Downloads\WebApp\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\Users\Stefan\Downloads\WebApp\WebApp\obj\Debug\WebApp.Migrations.InitialMigration.resources
+C:\Users\Stefan\Downloads\WebApp\WebApp\obj\Debug\WebApp.csproj.GenerateResource.cache
+C:\Users\Stefan\Downloads\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Downloads\WebApp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Users\Stefan\Downloads\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\Stefan\Downloads\WebApp\WebApp\obj\Debug\WebApp.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\WebApp.dll.config
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\WebApp.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\WebApp.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\csc.exe
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\csc.exe.config
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\csc.rsp
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\csi.exe
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\csi.exe.config
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\csi.rsp
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Console.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\vbc.exe
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\vbc.exe.config
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\vbc.rsp
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Antlr3.Runtime.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\EntityFramework.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Cors.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Newtonsoft.Json.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Owin.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Net.Http.Formatting.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Cors.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Helpers.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Cors.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Owin.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.WebHost.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Mvc.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Optimization.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Razor.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Thinktecture.IdentityModel.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Unity.Abstractions.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Unity.Container.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\WebActivatorEx.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\WebGrease.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Cors.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Net.Http.Formatting.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Helpers.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Cors.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Mvc.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Razor.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Newtonsoft.Json.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.WebHost.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Optimization.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Thinktecture.IdentityModel.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Thinktecture.IdentityModel.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Unity.Abstractions.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Unity.Container.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Antlr3.Runtime.pdb
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\EntityFramework.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Owin.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.csprojAssemblyReference.cache
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.InitialMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.csproj.GenerateResource.cache
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.csproj.CopyComplete
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.dll
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\WebApp.dll.config
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\WebApp.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\WebApp.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\csc.exe
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\csc.exe.config
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\csc.rsp
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\csi.exe
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\csi.exe.config
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\csi.rsp
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.AppContext.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Collections.Immutable.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Console.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.Compression.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.IO.Pipes.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Reflection.Metadata.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.AccessControl.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Claims.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.ValueTuple.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.XPath.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\vbc.exe
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\vbc.exe.config
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\vbc.rsp
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\roslyn\VBCSCompiler.exe.config
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Antlr3.Runtime.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\EntityFramework.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\EntityFramework.SqlServer.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Cors.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Google.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Jwt.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Web.Infrastructure.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Newtonsoft.Json.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Owin.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Net.Http.Formatting.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Cors.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Helpers.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Cors.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Owin.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.WebHost.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Mvc.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Optimization.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Razor.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Deployment.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Razor.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Thinktecture.IdentityModel.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Unity.Abstractions.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Unity.Container.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\WebActivatorEx.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\WebGrease.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.Core.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Logging.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.IdentityModel.Tokens.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Cors.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Jwt.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Net.Http.Formatting.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Helpers.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Cors.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Mvc.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Razor.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Deployment.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.WebPages.Razor.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Newtonsoft.Json.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.WebHost.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Optimization.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Thinktecture.IdentityModel.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Thinktecture.IdentityModel.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Unity.Abstractions.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Unity.Container.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Antlr3.Runtime.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\EntityFramework.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\EntityFramework.SqlServer.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Google.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\System.Web.Http.Owin.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.InitialMigration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.csproj.GenerateResource.Cache
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.csproj.CoreCompileInputs.cache
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.dll
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.pdb
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.BigChanges.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.UserMigration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LastMigration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.CenovnikMigration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LinesMigration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.BigChanges.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.UserMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LastMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.CenovnikMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LinesMigration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.TicketsMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.TicketsMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.image_migration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.image_migration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LineStationsMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LineStationsMigration.resources
+E:\Fakultet\4. CetvrtaGodina\Blok 8\Projekat\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LogicalDeleteLineMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.LogicalDeleteLineMigration.resources
+C:\Users\Stefan\Documents\GitHub\Web2_Project\WebApp\WebApp\obj\Debug\WebApp.Migrations.BusStationMigration.resources

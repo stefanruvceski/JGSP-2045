@@ -1,0 +1,42 @@
+﻿Validation, strategy patern
+
+slika :
+public class Image
+{
+    public int Id { get; private set; }
+
+    public string Name { get; set; }
+
+    public byte[] ProductImage { get; set; }
+}
+
++ RESENO
++ mozda je umesto cele klase PriceList_TicketType_AgeGroup dovoljno u klasu PriceList_TicketType uvuci strani kljuc na AgeGroup,
++ da bih tako dobio koeficijent sa kojim je naplacena karta (mislim da je bolje ovako)
+
+- NE OVAKO, VEC U ApplicationUser-a dodam strani kljuc na mog User-a
+-klasu User bi trebalo obrisati, a sve propertije iz nje prebaciti u njihovu klasu ApplicationUser (komentar na pocetku klase ApplicationUser)
+onda promeniti i da Passenger nasledjuje klasu ApplicationUser
+
++ RESENO
++ baza: ostalo je resiti User, Passenger i ApplicationUser, kad definitivno odlucim sta sa tim
+
+- napravi strani kljuc u tabeli Tickets, na Passenger_Id, zbog Tickets liste na Passenger-u => da li i ja onda u klasi Ticket moram dodati taj strani kljuc?????
+
+##########################################################################################
+- VAZNO!!!!!!!!
+- tabela LineStations se nece koristiti, glupi EntityFramework ju je kreirao nepotrebno
+- koristi se tabela StationLines, preko njenog DbSet-a!!!!!!!!
+##########################################################################################
+
+- nesto sere kad probam da dodam strani kljuc u ApplicationUser-a
+***The ALTER TABLE statement conflicted with the FOREIGN KEY constraint "FK_dbo.AspNetUsers_dbo.Users_UserId". The conflict occurred in database "WebAppDb", table "dbo.Users", column 'Id'.
+
+##################### npm install ng-bootstrap-form-validation --save ##################### STEFANE URADI OVO
+- zavrsi validacije i usaglasi da budu identicne na frontu i endu
+- custom validacija
+- log out
+- rutiranje da ima smisla
+
+#####################
+- kod prikaza reda voznje, napraviti da kad promeni koji dan hoce da mu se prikaze za trenutno izabranu liniju (tj. prethodno izabranu liniju)

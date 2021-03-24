@@ -1,0 +1,55 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12  mx-auto">
+      <div class="card card-signin flex-row my-5">
+
+        <div class="card-body">
+          <div class="funkyradio">
+
+
+
+            <div *ngFor="let id of lineIds" style="display: inline-block">
+              <div class="funkyradio-primary" style="margin-right:10px;">
+                <input ng-model="myCheckbox"  value="RAdi" id={{id}}  type="checkbox" name="radio"  ng-model="check" (click)="someFunction(id,$event)" ng-true-value="YES" ng-false-value="NO">
+                <label for="{{id}}">{{id}}&nbsp;&nbsp;</label>
+            </div>
+              </div>
+          </div>
+          <!--Google map-->
+              <agm-map  [latitude]="45.25167" [longitude]="19.83694" [zoom]="14" >
+
+
+                  <div *ngFor="let line of getLines()">
+                  <agm-polyline  [strokeColor]="line.Color">
+                       <agm-polyline-point *ngFor="let station of line.Stations" [latitude]="station.XCoordinate" [longitude]="station.YCoordinate">
+
+                      </agm-polyline-point>
+                  </agm-polyline>
+                  <div *ngFor="let station of line.Stations">
+                  <agm-marker   *ngIf="station.IsStation == 'Yes'" [latitude]="station.XCoordinate" [longitude]="station.YCoordinate" [iconUrl]="iconUrl">
+                    <agm-info-window [latitude]="station.XCoordinate" [longitude]="station.YCoordinate" >
+
+
+                      <span style="font-size: 16px;font-family:'Times New Roman'">{{station.Name}}</span>
+                      <br/>
+                      <!-- <span style="font-family:'Times New Roman'; color:gray;"><strong>Jugodrvo</strong></span> -->
+                      <span style="font-family:'Times New Roman'; color:gray;">{{station.Address}}</span>
+
+                    </agm-info-window>
+                  </agm-marker>
+                </div>
+                </div>
+                </agm-map>
+
+
+
+
+        </div>
+      </div>
+      </div>
+
+
+    </div>
+
+  </div>
+

@@ -1,0 +1,189 @@
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: white;">
+      <h4 class="modal-title">Confirm ticket</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: white;">
+      <h2>{{feedback}}</h2>
+
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+        <button type="button" class="btn btn-info" (click)="ok()">Ok</button>
+    </div>
+  </ng-template>
+
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body" style="height: 640px;">
+
+          <div class="row" >
+            <div col-xl-12 *ngIf="flag != 'add'" >
+                <link href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" rel="stylesheet" />
+                <div style="display: inline-block; width: 200px; margin-right: 85px;" class=" my-switch1  switch-toggle switch-3 switch-candy">
+                    <input id="Urban" name="state-dd" value="Urban" type="radio" checked="" (change)="onChangeView('edit')"/>
+                    <label for="Urban" onclick="">Edit</label>
+
+                    <input  id="Suburban"  name="state-dd" value="Suburban" type="radio" (change)="onChangeView('delete')"/>
+                    <label for="Suburban" onclick="">Delete</label>
+
+
+
+                    <a class="active-switch"></a>
+                  </div>
+                    <div   style="display: inline-block;width: 777px;" class=" my-switch1  switch-toggle switch-3 switch-candy">
+                      <ng-container *ngFor="let id of lineIds; let i = index"  >
+                      <input  id="{{id}}" name="state-dd" value="{{id}}" type="radio"  (change)="someFunction(id)"/>
+                      <label   for="{{id}}" onclick="">{{id}}</label>
+
+
+                      </ng-container>
+                      <a  class="active-switch"></a>
+                  </div>
+
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-xl-3" *ngIf="flag != 'deleteLine' && flag != 'editLine' && flag != 'add'"></div>
+              <div class="col-xl-3" *ngIf="flag == 'deleteLine'">
+                  <br><br><br><br><br><br><br>
+                  <form  class="form-signin" [formGroup]="profileForm" (ngSubmit)="onDelete()">
+                      <div class="form-label-group">
+                        <input type="text" id="inputLineNumber" readonly formControlName="lineNumber" class="form-control" placeholder="Line number"  autofocus>
+                        <label for="inputLineNumber">Line number</label>
+                      </div>
+
+                      <div class="form-label-group">
+                          <input type="text" id="inputLineNumber" readonly formControlName="lineType" class="form-control" placeholder="Line number"  autofocus>
+                          <label for="inputLineNumber">Line Type</label>
+                        </div>
+
+                      <div class="form-label-group">
+                        <input type="text" id="inputDescription" formControlName="description" readonly class="form-control" placeholder="Description" >
+                        <label for="inputDescription">Description</label>
+                      </div>
+
+                      <div class="form-label-group">
+                          <input type="color" id="inputColor" formControlName="color" readonly class="form-control" placeholder="Color" >
+                          <label for="inputColor">Color</label>
+                        </div>
+
+
+                      <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" [disabled]="profileForm.invalid"  type="submit">Delete line</button>
+
+                    </form>
+            </div>
+            <div class="col-xl-3" *ngIf="flag == 'add' || flag == 'editLine'">
+                <br><br><br><br><br><br><br>
+                <form  class="form-signin" [formGroup]="profileForm" (ngSubmit)="onSubmit(content)">
+                    <div *ngIf="flag == 'add'" class="form-label-group">
+                      <input type="text" id="inputLineNumber" formControlName="lineNumber" class="form-control" placeholder="Line number"  autofocus>
+                      <label for="inputLineNumber">Line number</label>
+                    </div>
+
+                    <div *ngIf="flag != 'add'" class="form-label-group">
+                        <input type="text" id="inputLineNumber" readonly formControlName="lineNumber" class="form-control" placeholder="Line number"  autofocus>
+                        <label for="inputLineNumber">Line number</label>
+                      </div>
+
+                    <div class="form-label-group ">
+                        <select (change)="onChange()" class="form-control" formControlName="lineType" id="lab" required>
+                            <option value="Urban" >Urban</option>
+                            <option value= "Suburban">Suburban</option>
+                        </select>
+                    </div>
+
+                    <div class="form-label-group">
+                      <input type="text" id="inputDescription" formControlName="description" class="form-control" placeholder="Description" >
+                      <label for="inputDescription">Description</label>
+                    </div>
+
+                    <div class="form-label-group">
+                        <input type="color" id="inputColor" formControlName="color" class="form-control" placeholder="Color" >
+                        <label for="inputColor">Color</label>
+                      </div>
+
+
+                    <button *ngIf="flag == 'add'" class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" [disabled]="profileForm.invalid"  type="submit">Add line</button>
+                    <button *ngIf="flag != 'add'" class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" [disabled]="profileForm.invalid"  type="submit">Change line</button>
+
+                  </form>
+          </div>
+
+            <div class="col-xl-9" >
+          <agm-map  [latitude]="45.242268" [longitude]="19.842954" [zoom]="18" (mapRightClick)="rightClick($event)" (mapClick)="leftClick($event)">
+
+            <agm-marker [latitude]="45.242268" [longitude]="19.842954" >
+            <!-- [title]="markerInfo.title"
+            [label]="markerInfo.label" > -->
+
+
+              <agm-info-window [latitude]="45.242268" [longitude]="19.842954" >
+
+
+                <span style="font-size: 16px;font-family:'Times New Roman'">Fakultet tehničkih nauka</span>
+                <br/>
+                <span style="font-family:'Times New Roman'; color:gray;"><strong>Jugodrvo</strong></span>
+                <span style="font-family:'Times New Roman'; color:gray;">Bulevar oslobođenja 131</span>
+
+              </agm-info-window>
+
+            </agm-marker>
+
+            <agm-polyline [strokeColor]="profileForm.controls.color.value">
+                <agm-polyline-point *ngFor="let station of line.Stations" [latitude]="station.XCoordinate" [longitude]="station.YCoordinate">
+                </agm-polyline-point>
+           </agm-polyline>
+
+           <div *ngFor="let station of line.Stations">
+             <agm-marker *ngIf="station.IsStation=='Yes'"  [latitude]="station.XCoordinate" [longitude]="station.YCoordinate" [iconUrl]="iconUrl">
+             </agm-marker>
+           </div>
+
+            <div *ngIf="flag == 'editLine'">
+            <agm-polyline [strokeColor]="line.Color">
+                 <agm-polyline-point *ngFor="let station of line.Stations" [latitude]="station.XCoordinate" [longitude]="station.YCoordinate">
+                 </agm-polyline-point>
+            </agm-polyline>
+
+            <div *ngFor="let station of line.Stations">
+              <agm-marker *ngIf="station.IsStation=='Yes'"  [latitude]="station.XCoordinate" [longitude]="station.YCoordinate" [iconUrl]="iconUrl">
+              </agm-marker>
+            </div>
+
+
+              <agm-polyline [strokeColor]="profileForm.controls.color.value">
+                 <agm-polyline-point *ngFor="let station of newLine.Stations" [latitude]="station.XCoordinate" [longitude]="station.YCoordinate">
+                 </agm-polyline-point>
+            </agm-polyline>
+            <div *ngFor="let station of newLine.Stations">
+            <agm-marker *ngIf="station.IsStation=='Yes'"  [latitude]="station.XCoordinate" [longitude]="station.YCoordinate" [iconUrl]="iconUrl">
+            </agm-marker>
+          </div>
+           </div>
+
+          </agm-map>
+          </div>
+          </div>
+        <!-- </div> -->
+
+      </div>
+    </div>
+    </div>
+
+
+  </div>
+  <!--Grid column-->
+
+</div>
+

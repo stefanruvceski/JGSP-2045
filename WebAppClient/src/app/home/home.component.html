@@ -1,0 +1,202 @@
+<ng-template #content2 let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: white;">
+      <h4 class="modal-title">Confirm ticket</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: white;">
+      <table>
+        <tr><td>Price</td><td>{{ticket.Price}} rsd</td></tr>
+        <tr><td>Age Group</td><td>{{ticket.AgeGroup}}</td></tr>
+        <tr><td>Issuing Time</td><td>{{ticket.IssuingTime}}</td></tr>
+        <tr><td>Expiration Time</td><td>{{ticket.ExpirationTime}}</td></tr>
+        <tr><td colspan=2><hr color="white" ></td></tr>
+        <tr><td colspan=2>{{ticket.Description}}</td></tr>
+
+    </table>
+
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+        <button *ngIf="ticket.Description !=='Success'" type="button" class="btn btn-info" (click)="ok()">Confirm</button>
+        <button type="button" class="btn btn-info" (click)="cancel()">Cancel</button>
+
+    </div>
+  </ng-template>
+
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: white;">
+      <h4 class="modal-title">Buy ticket</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: white;">
+        <h5 >Choose ticket type</h5>
+        <select class="form-control" [(ngModel)]="ticketType" name="first" style="background-color: #292b2c;color: white;">
+            <option value="Time Ticket" >Time Ticket</option>
+            <option value= "Daily Ticket">Day Ticket</option>
+            <option value="Monthly Ticket" >Month Ticket</option>
+            <option value="Annual Ticket" >Year Ticket</option>
+          </select>
+
+    <br><br><br><br>
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+        <button type="button" class="btn btn-info" (click)="buyTicket(content2)">Buy</button>
+
+    </div>
+  </ng-template>
+<br/><br/>
+<div class="container">
+  <br/>
+  <!-- Jumbotron Header -->
+  <div class="card card-signin container">
+    <!-- <h1 class="display-3">A Warm Welcome!</h1>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
+    <a href="#" class="btn btn-primary btn-lg">Call to action!</a> -->
+
+
+    <slideshow [height]="'370px'"
+    [autoPlay]="true"
+    [showArrows]="false"
+    [imageUrls]="imageUrlArray"
+    [autoPlayInterval]="2000"
+    [lazyLoad]="imageUrlArray?.length > 1"
+    [autoPlayWaitForLazyLoad]="true">
+    <button class="btn">Button</button>
+    </slideshow>
+
+  </div>
+ <br/>
+
+  <!-- Page Features -->
+  <div class="row text-center">
+
+      <div *ngIf='username && role === "Admin"' [routerLink]="['/addnewline','add']" routerLinkActive="router-link-active" style="cursor: pointer;" class=" i-link1 col">
+        <div class="card h-70">
+          <br/>
+          <i class="fas fa-plus fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Add Line</h4>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf='username && role === "Admin"' [routerLink]="['/addnewline','edit']" routerLinkActive="router-link-active" style="cursor: pointer;" class=" i-link1 col">
+        <div class="card h-70">
+          <br/>
+          <i class="far fa-edit fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Edit Line</h4>
+          </div>
+        </div>
+      </div>
+
+      <div [routerLink]="['/currentlocation']" routerLinkActive="router-link-active" style="cursor: pointer;" class=" i-link1 col">
+        <div class="card h-70">
+          <br/>
+          <i class="fas fa-map-marked-alt fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Location</h4>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf='role !== "Admin"'  [routerLink]="['/linenetwork']" routerLinkActive="router-link-active" style="cursor: pointer;"  class="i-link2 col">
+        <div class="card h-70">
+          <br/>
+          <i class="fas fa-traffic-light fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Line Network</h4>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf='username && role === "AppUser"' (click)="openWindowCustomClass(content)" style="cursor: pointer;" class=" i-link-center col">
+        <div class="card h-70">
+          <br/>
+          <i class="fas fa-ticket-alt fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Buy Ticket</h4>
+          </div>
+        </div>
+      </div>
+      <div  *ngIf='username && role === "Controller"'  routerLinkActive="router-link-active" class=" i-link-input col">
+          <div class="card h-70">
+              <i class="fas fa-ticket-alt fa-5x"></i>
+            <form style="height: 137px" class="form-signin"  (ngSubmit)="verificate(ticketid.value)">
+                <div  class="form-label-group">
+                  <input (focus)= "onchange()"  #ticketid type="number" id="inputId" [(ngModel)]="id" class="form-control" placeholder="Ticket id"  autofocus>
+                  <label for="inputId">Ticket id</label>
+                    <br>
+                  <button class="btn btn-lg btn-{{status}} btn-block btn-login text-uppercase font-weight-bold mb-2" [disabled]="!username"  type="submit">{{statusString}}</button>
+
+                </div>
+                </form>
+
+          </div>
+        </div>
+      <div *ngIf='role !== "Admin"' [routerLink]="['/timetable']" routerLinkActive="router-link-active" style="cursor: pointer;"  class="i-link3 col">
+        <div class="card h-70">
+          <br/>
+          <i class="fas fa-table fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Timetable</h4>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf='username && role === "Admin"' [routerLink]="['/admintimetable']" routerLinkActive="router-link-active" style="cursor: pointer;"  class="i-link3 col">
+        <div class="card h-70">
+          <br/>
+          <i class="fas fa-table fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Timetable</h4>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf='username && role === "Controller"' [routerLink]="['/controlerverificationusers']" routerLinkActive="router-link-active" style="cursor: pointer;"  class="i-link4 col">
+        <div class="card h-70">
+          <br/>
+          <i class="fas fa-user fa-7x"></i>
+          <div class="card-body">
+            <h4 class="card-title">Verificate</h4>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div *ngIf='!username || role === "AppUser"' [routerLink]="['/pricelist']" routerLinkActive="router-link-active" style="cursor: pointer;"  class="i-link4 col">
+      <div class="card h-70">
+        <br/>
+        <i class="i-link fas fa-dollar-sign fa-7x"></i>
+        <div class="card-body">
+          <h4 class="card-title">Pricelist</h4>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf='role === "Admin"' [routerLink]="['/adminpricelist']" routerLinkActive="router-link-active" style="cursor: pointer;"  class="i-link4 col">
+      <div class="card h-70">
+        <br/>
+        <i class="i-link fas fa-dollar-sign fa-7x"></i>
+        <div class="card-body">
+          <h4 class="card-title">Pricelist</h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->

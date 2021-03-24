@@ -1,0 +1,90 @@
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: white;">
+      <h4 class="modal-title">Verificate user</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: white;">
+      <table>
+        <tr><td>Username</td><td>{{selectedUser.Username}}</td></tr>
+        <tr><td>Verification status</td><td>{{selectedUser.Status}}</td></tr>
+        <tr><td>First name</td><td>{{selectedUser.FirstName}}</td></tr>
+        <tr><td>Last name</td><td>{{selectedUser.LastName}}</td></tr>
+        <tr><td>Birthday</td><td>{{selectedUser.Birthday}}</td></tr>
+        <tr><td>Age group</td><td>{{selectedUser.AgeGroup}}</td></tr>
+        <tr><td colspan=2><hr color="white" ></td></tr>
+        <tr><td colspan=2><img *ngIf=!selectedUser.Document  id="blah" [src]="'http://placehold.it/180'" alt="your image" style="align-content: center; width: 460px;height: 370px;float: left;" /></td>
+          <tr><td colspan=2><img  *ngIf=selectedUser.Document id="blah" [src]="'data:image/png;base64,'+selectedUser.Document" alt="your image" style="align-content: center;float: lef;width: 460px;height: 370px;" /></td>
+
+
+
+    </table>
+
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+        <button *ngIf="selectedUser.Status == 'Pending' && selectedUser.Document"  type="button" class="btn btn-info" (click)="ok()">Aprove</button>
+        <button *ngIf="selectedUser.Status == 'Pending'" type="button" class="btn btn-danger" (click)="cancel()">Decline</button>
+
+    </div>
+  </ng-template>
+
+
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center mb-4">Denied</h5>
+          <ul>
+              <li *ngFor="let user of usersNonVerificated">
+                <button type="button" style=  "width:100%" class="btn btn-info" (click)="showUserDetails(user, content)">
+                    {{user.Username}}-{{user.FirstName}}&nbsp;{{user.LastName}}
+                  </button>
+              </li>
+            </ul>
+</div>
+</div>
+</div>
+<div class="col-lg-4  mx-auto">
+    <div class="card card-signin flex-row my-5">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">Verification pending</h5>
+        <ul>
+            <li *ngFor="let user of usersPending">
+              <button type="button" style=  "width:100%" class="btn btn-info" (click)="showUserDetails(user, content)">
+                  {{user.Username}}-{{user.FirstName}}&nbsp;{{user.LastName}}
+                </button>
+            </li>
+          </ul>
+</div>
+</div>
+</div>
+<div class="col-lg-4  mx-auto">
+    <div class="card card-signin flex-row my-5">
+      <div class=" d-none d-md-flex">
+         <!-- Background image for card set in CSS! -->
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">Approved</h5>
+        <ul>
+            <li *ngFor="let user of usersVerificated">
+              <button type="button" style=  "width:100%" class="btn btn-info" (click)="showUserDetails(user, content)">
+                  {{user.Username}}-{{user.FirstName}}&nbsp;{{user.LastName}}
+                </button>
+            </li>
+          </ul>
+</div>
+</div>
+</div>
+</div>
+
+</div>

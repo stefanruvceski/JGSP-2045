@@ -1,0 +1,41 @@
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <div *ngIf="tickets.length === 0">
+              <h5 class="card-title text-center mb-4">You still don't have tickets purchased...</h5>
+              <img style="width: 100%" src="http://images.gmanews.tv/webpics/2016/11/BusAccident_2016_11_02_19_23_30.jpg">
+          </div>
+
+          <div *ngIf="tickets.length !== 0">
+            <h5 class="card-title text-center mb-4">My Tickets</h5>
+            <table  class="table">
+              <thead  class="thead-dark">
+                  <tr style="text-align: center">
+                      <th  scope="col" >Id</th>
+                      <th scope="col">Ticket Type</th>
+                      <th scope="col">Issuing Time</th>
+                      <th scope="col">Expiration Time</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr style="text-align: center" *ngFor="let ticket of tickets;let i = index" [attr.data-index]="i">
+
+                      <td>{{ticket.TicketId}}</td>
+                      <td>{{ticket.TicketType}}</td>
+                      <td>{{ticket.IssuingTime}}</td>
+                      <td>{{ticket.ExpirationTime}}</td>
+                    </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

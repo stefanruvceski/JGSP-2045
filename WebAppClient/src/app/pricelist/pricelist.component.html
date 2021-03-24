@@ -1,0 +1,85 @@
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center mb-4">Regular</h5>
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>#</th>
+            <th scope="col">Ticket type</th>
+            <th scope="col">Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let pricelist of pricelistRegular;let i = index" [attr.data-index]="i">
+            <td>{{i+1}}</td>
+            <td>{{pricelist.TicketName}}</td>
+            <td>{{pricelist.Price}} rsd</td>
+          </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+<div class="col-lg-4  mx-auto">
+    <div class="card card-signin flex-row my-5">
+      <div class=" d-none d-md-flex">
+         <!-- Background image for card set in CSS! -->
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">Students</h5>
+<table class="table">
+  <thead class="thead-dark">
+      <tr>
+          <th>#</th>
+          <th scope="col">Ticket type</th>
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pricelist of pricelistStudent;let i = index" [attr.data-index]="i">
+          <td>{{i+1}}</td>
+          <td>{{pricelist.TicketName}}</td>
+          <td>{{pricelist.Price}} rsd</td>
+        </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="col-lg-4  mx-auto">
+    <div class="card card-signin flex-row my-5">
+      <div class=" d-none d-md-flex">
+         <!-- Background image for card set in CSS! -->
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">Pensioners</h5>
+<table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>#</th>
+      <th scope="col">Ticket type</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pricelist of pricelistPensioner;let i = index" [attr.data-index]="i">
+      <td>{{i+1}}</td>
+      <td>{{pricelist.TicketName}}</td>
+      <td>{{pricelist.Price}} rsd</td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+</div>

@@ -1,0 +1,113 @@
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-xl-9 mx-auto">
+      <div class="card card-signin flex-row my-5">
+
+        <div class="card-body">
+
+          <h5 class="card-title text-center mb-4">User Info</h5>
+          <form class="form-signin"   [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+            <div class="row">
+              <div class="col-sm-6">
+            <div class="form-label-group">
+              <input type="text" id="inputUserame" readonly formControlName="username" class="form-control"  placeholder="Username" required autofocus>
+              <label for="inputUserame">Username</label>
+            </div>
+
+            <div class="form-label-group">
+              <input type="email" formControlName="email" readonly id="inputEmail"   class="form-control" placeholder="Email address" required>
+              <label for="inputEmail">Email address</label>
+            </div>
+
+
+            <!-- <div class="form-label-group">
+              <input type="password" id="inputPassword" formControlName="password" class="form-control" placeholder="Password" required>
+              <label for="inputPassword">Password</label>
+            </div>
+
+            <div class="form-label-group">
+              <input type="password" id="inputConfirmPassword" formControlName="confirmpassword" class="form-control" placeholder="Password" required>
+              <label for="inputConfirmPassword">Confirm password</label>
+            </div> -->
+
+            <div class="form-label-group">
+              <input type="text" id="inputFirstName" formControlName="firstname" class="form-control" placeholder="First Name" required>
+              <label for="inputFirstName">First Name</label>
+            </div>
+
+            <div class="form-label-group">
+                <input type="text" id="inputLastName" formControlName="lastname" class="form-control" placeholder="Last Name" required>
+                <label for="inputLastName">Last Name</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="text" id="inputAddress" class="form-control" formControlName="address" placeholder="Address"  autofocus>
+                <label for="inputAddress">Address</label>
+              </div>
+
+            </div>
+          <div class="col-sm-6">
+
+
+            <div class="form-label-group ">
+              <select (change)="onchange()" class="form-control" formControlName="agegroup" id="lab" required>
+                  <!-- <option *ngFor="let type of Type" selected="{{type==='Regular'}}"  [ngValue]="type">{{type}}</option> -->
+                  <option value="Regular" >Regular</option>
+                  <option value= "Student">Student</option>
+                  <option value="Pensioner" >Pensioner</option>
+              </select>
+          </div>
+
+
+
+          <hr class="my-2">
+          <br>
+          <div class="myContainer container" >
+              <div class="columns is-multiline">
+                <div class="column is-6 is-offset-3">
+
+                </div>
+                <div class="column is-6 is-offset-3">
+                  <div class="datepicker-container">
+                       <ng-datepicker position='top-right' formControlName="birthday" [(ngModel)]="date" [options]="options"></ng-datepicker>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div *ngIf= "user.AgeGroup != 'Regular'">
+            <img *ngIf=!user.Document  id="blah" [src]="'http://placehold.it/180'" alt="your image" style="width: 150px;height: 200px;" />
+                <img  *ngIf=user.Document id="blah" [src]="'data:image/png;base64,'+user.Document" alt="your image" style="width: 140px;height: 165px;" />
+
+              <div class="input-group right">
+
+                    <div class="custom-file " >
+                      <input type="file" class=" custom-file-input"(change)="onFileChanged($event)" #fileInput>
+                      <label *ngIf=!user.Document class="custom-file-label" for="inputGroupFile01">Choose image</label>
+                      <label *ngIf=user.Document class="custom-file-label" for="inputGroupFile01">Image chosen</label>
+                    </div>
+                  </div>
+
+                </div>
+            </div>
+
+          </div>
+          <hr class="my-8">
+          <div class="row">
+              <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                    <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" [disabled]="profileForm.invalid" >Update informations</button>
+
+                </div>
+                <div class="col-lg-2">
+                </div>
+          </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

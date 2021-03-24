@@ -1,0 +1,54 @@
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: rgb(150, 37, 37);">
+      <h4 class="modal-title">Error</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: rgb(150, 37, 37);">
+        <h5 >{{errorMessage}}</h5>
+
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+       <!-- <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button> -->
+    </div>
+  </ng-template>
+<br/><br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-xl-9 mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class="card-img-left d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+              <h5 class="card-title login-heading text-center mb-4">Welcome back!</h5>
+              <img src="https://i.imgur.com/V8c16Be.png" style="width:400px;height: 200px;" class="container">
+              <br/><br/>
+              <form class="form-signin" [formGroup]="profileForm" (ngSubmit)="onSubmit(content)">
+                <div class="form-label-group">
+                  <input type="email" id="inputEmail" formControlName="username" class="form-control" placeholder="Email address"  autofocus>
+                  <label for="inputEmail">Username</label>
+                </div>
+
+                <div class="form-label-group">
+                  <input type="password" id="inputPassword" formControlName="password" class="form-control" placeholder="Password" >
+                  <label for="inputPassword">Password</label>
+                </div>
+
+                <!-- <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Remember password</label>
+                </div> -->
+                <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" [disabled]="profileForm.invalid"  type="submit">Sign in</button>
+                <div class="text-center">
+                  <a class="small" href="registration">Register</a></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

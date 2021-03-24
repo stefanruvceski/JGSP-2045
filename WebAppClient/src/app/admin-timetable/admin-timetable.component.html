@@ -1,0 +1,99 @@
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: white;">
+      <h4 class="modal-title">Confirm ticket</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: white;">
+      <h2>{{feedback}}</h2>
+
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+        <button type="button" class="btn btn-info" (click)="ok()">Ok</button>
+    </div>
+  </ng-template>
+
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7  mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class=" d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center mb-4">Timetable</h5>
+
+          <link href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" rel="stylesheet" />
+  <div style="display: inline-block" class=" my-switch1  switch-toggle switch-3 switch-candy">
+    <input id="Urban" name="state-dd" value="Urban" type="radio" checked="" (change)="getLines('Urban')"/>
+    <label for="Urban" onclick="">Urban</label>
+
+    <input id="Suburban"  name="state-dd" value="Suburban" type="radio" (change)="getLines('Suburban')"/>
+    <label for="Suburban" onclick="">Suburban</label>
+
+
+
+    <a class="active-switch"></a>
+  </div>
+
+
+
+  <div class=" my-switch2 switch-toggle switch-3 switch-candy">
+    <input id="Weekday" name="state-d" value="Weekday" type="radio" checked="" (change)="onSelectionChange('Weekday')"/>
+    <label for="Weekday" onclick="">Weekday</label>
+
+    <input id="Saturday"  name="state-d" value="Saturday" type="radio" (change)="onSelectionChange('Saturday')"/>
+    <label for="Saturday" onclick="">Saturday</label>
+
+    <input id="Sunday" name="state-d" value="Sunday" type="radio" (change)="onSelectionChange('Sunday')"/>
+    <label for="Sunday" onclick="">Sunday</label>
+
+    <a class="active-switch"></a>
+  </div>
+
+  <ul>
+    <li *ngFor="let line of lines">
+      <button type="button" style=  "width:100%" class="btn btn-info" (click)="showLineDetails(line.Lineid)">
+          {{line.Lineid}}&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;{{line.Description}}
+        </button>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+<div *ngIf="hid"class="col-lg-5  mx-auto">
+    <div class="card card-signin flex-row my-5">
+
+      <div class="card-body">
+        <h5 class="card-title text-center mb-4">{{lineId}}</h5>
+        <form class="form-signin" [formGroup]="profileForm" (ngSubmit)="onSubmit(content)">
+          <br>
+            <div class=" my-switch2 switch-toggle switch-3 switch-candy">
+                <input id="add" name="state-d" value="Add" type="radio" checked="" (change)="onSelectionChange('add')"/>
+                <label for="add" onclick="">Add</label>
+
+                <input id="edit" name="state-d" value="Edit" type="radio" checked="" (change)="onSelectionChange('edit')"/>
+                <label for="edit" onclick="">Edit</label>
+
+                <a class="active-switch"></a>
+              </div>
+              <br><br>
+          <div class="form-label-group">
+            <textarea  type="text" id="inputLineId" style="height: 360px" formControlName="timetableF" class="form-control" placeholder="Timetable">{{profileForm.controls.timetableF.value}}</textarea>
+
+          </div>
+          <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" [disabled]="profileForm.invalid"  type="submit">{{addchange}} Timetable</button>
+
+
+        </form>
+        <button class="btn btn-lg btn-danger btn-block btn-login text-uppercase font-weight-bold mb-2"  style="border-radius: 30px; height: 50px;"  (click)="deleteTimetable()">Delete Timetable</button>
+</div>
+</div>
+</div>
+</div>
+</div>

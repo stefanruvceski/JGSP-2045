@@ -1,0 +1,134 @@
+<ng-template #content let-modal>
+    <div class="modal-header" style="background-color: #292b2c;color: rgb(150, 37, 37);">
+      <h4 class="modal-title">Error</h4>
+
+      <button style="color: white;" type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span style="color: white;" aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="modal-body" style="background-color: #292b2c;color: rgb(150, 37, 37);">
+        <h5 >{{errorMessage}}</h5>
+
+    </div>
+    <div class="modal-footer" style="background-color: #292b2c;color: white;">
+       <!-- <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button> -->
+    </div>
+  </ng-template>
+
+<br/>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-xl-12 mx-auto">
+      <div class="card card-signin flex-row my-5">
+        <div class="col-lg-4 card-img-left d-none d-md-flex">
+           <!-- Background image for card set in CSS! -->
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center mb-4">Register</h5>
+          <form class="form-signin" [formGroup]="profileForm" (ngSubmit)="onSubmit(content)">
+              <div class="row">
+                  <div class="col-sm-6">
+            <div class="form-label-group">
+              <input type="text" formControlName="username" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
+              <label for="inputUserame">*Username</label>
+            </div>
+
+            <div class="form-label-group">
+                <input type="email" formControlName="email" id="inputEmail" class="form-control" aria-describedby="emailHelp" placeholder="Email address" required>
+                <label for="inputEmail">*Email address</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="password" (change)="passwordFunc($event)" formControlName="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <label for="inputPassword">*Password</label>
+              </div>
+
+              <div class="form-label-group">
+                <input type="password" id="inputConfirmPassword" formControlName="confirmpassword" class="form-control" placeholder="Password" >
+                <label for="inputConfirmPassword">*Confirm password</label>
+              </div>
+              <hr>
+              <div class="form-label-group ">
+                <select class="form-control" formControlName="agegroup" id="lab" required (change)="onchange()">
+                    <!-- <option *ngFor="let type of Type" selected="{{type==='Regular'}}"  [ngValue]="type">{{type}}</option> -->
+                    <option value="Regular" >Regular</option>
+                    <option value= "Student">Student</option>
+                    <option value="Pensioner" >Pensioner</option>
+                </select>
+            </div>
+           </div>
+          <div class="col-sm-6">
+
+              <div class="form-label-group">
+                  <input type="text" id="inputFirstName" formControlName="firstname" class="form-control" placeholder="First Name" required>
+                  <label for="inputFirstName">*First Name</label>
+                </div>
+
+                <div class="form-label-group">
+                    <input type="text" id="inputLastName" formControlName="lastname" class="form-control" placeholder="Last Name" required>
+                    <label for="inputLastName">*Last Name</label>
+                  </div>
+
+              <div class="form-label-group">
+                <input type="text" id="inputAddress" class="form-control" formControlName="address" placeholder="Address"  autofocus>
+                <label for="inputAddress">Address</label>
+              </div>
+
+                <hr class="my-2">
+
+              <div class="myContainer container" >
+                  <div class="columns is-multiline">
+                    <div class="column is-6 is-offset-3">
+
+                    </div>
+                    <div class="column is-6 is-offset-3">
+                      <div class="datepicker-container">
+                           <ng-datepicker position='top-right' formControlName="birthday" [(ngModel)]="date" [options]="options"></ng-datepicker>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div *ngIf= "user.AgeGroup != 'Regular'">
+                <img *ngIf=!user.Document  id="blah" [src]="'http://placehold.it/180'" alt="your image" style="width: 100px;height: 100px;" />
+                <img  *ngIf=user.Document id="blah" [src]="'data:image/png;base64,'+user.Document" alt="your image" style="width: 100px;height: 100px;" />
+
+              <div class="input-group right">
+
+                    <div class="custom-file " >
+                      <input type="file" class=" custom-file-input"(change)="onFileChanged($event)" #fileInput>
+                      <label *ngIf=!user.Document class="custom-file-label">Choose image</label>
+                      <label *ngIf=user.Document class="custom-file-label">Image chosen</label>
+                    </div>
+                  </div>
+                  <br>
+
+                  <br><br>
+              </div>
+            </div>
+        </div>
+        <hr class="my-8">
+        <div class="row">
+            <div class="col-lg-2">
+              </div>
+              <div class="col-lg-8">
+                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" [disabled]="profileForm.invalid" >Register</button>
+                  <a class="d-block text-center mt-2 small" href="login">Sign In</a>
+                  <!-- <hr class="my-4">
+
+                  <button  class="btn btn-lg btn-google btn-block text-uppercase" type="submit"><i class="fab fa-google mr-2"></i> Sign up with Google</button>
+                  <button class="btn btn-lg btn-facebook btn-block text-uppercase" type="submit"><i class="fab fa-facebook-f mr-2"></i> Sign up with Facebook</button> -->
+
+              </div>
+              <div class="col-lg-2">
+              </div>
+        </div>
+      </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
